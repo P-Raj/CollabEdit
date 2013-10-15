@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="CollabEdit Java Editor"
+            extensions="java"
+            icon="icons/sample.gif"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="collabedit.editors.MainEditor"
+            id="collabedit.editors.MainEditor">
+      </editor>
+   </extension>
+
+</plugin>
